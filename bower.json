@@ -1,0 +1,26 @@
+{
+  "name": "xsystems-weather",
+  "homepage": "https://github.com/xsystems/xsystems-weather",
+  "authors": [
+    "Koen Boes <koenboes@xsystems.org>"
+  ],
+  "description": "Presents weather information obtained from a weather service element.",
+  "main": "xsystems-weather.html",
+  "keywords": [
+    "weather",
+    "Wunderground"
+  ],
+  "license": "GPL-3.0",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "iron-image": "PolymerElements/iron-image#^1.2.5",
+    "iron-ajax": "PolymerElements/iron-ajax#^1.4.3",
+    "paper-styles": "PolymerElements/paper-styles#^1.1.4"
+  },
+  "devDependencies": {
+    "iron-component-page": "PolymerElements/iron-component-page#^1.0.0",
+    "iron-demo-helpers": "PolymerElements/iron-demo-helpers#^1.0.0",
+    "web-component-tester": "^4.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  }
+}
