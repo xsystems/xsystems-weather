@@ -100,7 +100,7 @@ Obtains weather data from the Wundergraound weather service.
             var day = {};
             day.weekday = forecastday.date.weekday;
             day.weekdayShort = forecastday.date.weekday_short;
-            day.iconUrl = forecastday.icon_url;
+            day.iconUrl = forecastday.icon_url.replace(/^http:\/\//i, 'https://');
             day.conditions = forecastday.conditions;
             day.temperature = {};
             day.temperature.high = this.fahrenheit ? forecastday.high.fahrenheit : forecastday.high.celsius;
