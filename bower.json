@@ -9,7 +9,7 @@
     "type": "git",
     "url": "git://github.com/xsystems/xsystems-weather.git"
   },
-  "main": "xsystems-weather.html",
+  "main": "xsystems-weather-elements.html",
   "keywords": [
     "weather",
     "Wunderground"
